@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <!-- 适配手机/电脑屏幕 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人图文小站</title>
+    <!-- 引入样式文件 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <nav class="navbar">
+        <h2 class="logo">我的小站</h2>
+        <div class="nav-box">
+            <a href="#home">首页</a>
+            <a href="#gallery">图文画廊</a>
+            <!-- 暗黑模式切换按钮 -->
+            <button id="darkBtn">切换暗黑模式</button>
+        </div>
+    </nav>
+
+    <!-- 首页自我介绍区域 -->
+    <section id="home" class="home-box">
+        <div class="info-card">
+            <h1>你好，这里是我的个人展示站</h1>
+            <p>刚毕业高中生，用来存放随笔、生活照片，短期使用</p>
+            <p>全站纯静态页面，无需服务器，本地直接打开就能浏览</p>
+        </div>
+    </section>
+
+    <!-- 图片画廊区域 -->
+    <section id="gallery" class="gallery-box">
+        <h2>图文画廊</h2>
+        <div class="gallery-container">
+            <!-- 图片卡片，可自行替换img的src图片路径 -->
+            <div class="img-card">
+                <img src="img1.jpg" alt="图片1">
+                <p>随笔文字描述一</p>
+            </div>
+            <div class="img-card">
+                <img src="img2.jpg" alt="图片2">
+                <p>随笔文字描述二</p>
+            </div>
+            <div class="img-card">
+                <img src="img3.jpg" alt="图片3">
+                <p>随笔文字描述三</p>
+            </div>
+            <div class="img-card">
+                <img src="img4.jpg" alt="图片4">
+                <p>随笔文字描述四</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <p>短期个人展示网站 | 仅自用 2026</p>
+    </footer>
+
+    <!-- 引入交互JS文件 -->
+    <script src="main.js"></script>
+</body>
+</html>
